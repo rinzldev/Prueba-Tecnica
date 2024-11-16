@@ -2,7 +2,7 @@
 
 [English](#english) | [Español](#español)
 
-## <a name="español"></a> Español
+## Español
 
 Este proyecto es una API que permite obtener información meteorológica utilizando la API de OpenWeather. La API proporciona dos rutas principales: una para obtener el clima por ciudad y otra para obtener el clima por coordenadas.
 
