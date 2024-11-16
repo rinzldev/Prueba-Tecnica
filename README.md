@@ -11,7 +11,7 @@ Este proyecto es una API que permite obtener información meteorológica utiliza
 
 1. Clona el repositorio:
     ```sh
-    git clone [URL_DEL_REPOSITORIO](https://github.com/rinzldev/Prueba-Tecnica.git)
+     git clone https://github.com/rinzldev/Prueba-Tecnica.git
     ```
 2. Navega al directorio del proyecto:
     ```sh
