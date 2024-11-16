@@ -42,6 +42,27 @@ npm start
 **Routes:** 
 `/weather`
 `/coordinates`
+**Description:** Gets the weather of a specific city..  
+**Parameters  (in the request body):**
+- `city`: Nombre de la ciudad (string, obligatorio)
+
+**Example request for `/weather`:**
+```json
+{
+  "city": "Madrid"
+}
+```
+**Parameters (in the request body):**
+- `lon`: Longitude (string, required)
+  `lat`: Latitude (string, required)  
+**Example request for  `/coordinates`:**
+```json
+{
+    "lon": "-69.3227800",
+    "lat": "10.0738900"
+}
+```
+
 ## Español
 
 Este proyecto es una API que permite obtener información meteorológica utilizando la API de OpenWeather. La API proporciona dos rutas principales: una para obtener el clima por ciudad y otra para obtener el clima por coordenadas.
@@ -83,4 +104,23 @@ npm start
 **Rutas:** 
 `/weather`
 `/coordinates`
+**Descripción:** Obtiene el clima de una ciudad específica.  
+**Parámetros (en el cuerpo de la solicitud):**
+- `city`: Nombre de la ciudad (string, obligatorio)
 
+**Ejemplo de solicitud para `/weather`:**
+```json
+{
+  "city": "Madrid"
+}
+```
+**Parámetros (en el cuerpo de la solicitud):**
+- `lon`: Longitud (string, obligatorio)
+  `lat`: Latitud (string, obligatorio)  
+**Ejemplo de solicitud para `/coordinates`:**
+```json
+{
+    "lon": "-69.3227800",
+    "lat": "10.0738900"
+}
+```
